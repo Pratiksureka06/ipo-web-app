@@ -1,1 +1,33 @@
- 
+{
+  "name": "ipo-web-app",
+  "version": "1.0.0",
+  "description": "IPO Web Application and REST API using Node.js, Express, and PostgreSQL",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Pratik Sureka",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.16.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pratiksureka06/ipo-web-app.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Pratiksureka06/ipo-web-app/issues"
+  },
+  "homepage": "https://github.com/Pratiksureka06/ipo-web-app#readme"
+}
